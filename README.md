@@ -17,9 +17,9 @@ It uses **Amazon Bedrock** (foundation models), **AWS Lambda**, **Amazon API Gat
 5. Lambda saves the generated blog to an **S3 bucket** (`blog-output/` folder with timestamp).  
 6. Logs are stored in **CloudWatch Logs**.  
 
-
+```
 Client → API Gateway → Lambda → Bedrock → S3
-
+```
 
 ---
 
@@ -56,15 +56,15 @@ git clone <repo-url>
 cd generative-ai-bedrock-lambda
 
 
-### Optional) Create Virtual Environment
+### (Optional) Create Virtual Environment
 
-bash
+```bash
 python3 -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
-
+```
 
 ### Create S3 Bucket
 
