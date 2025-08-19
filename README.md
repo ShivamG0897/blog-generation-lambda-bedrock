@@ -24,7 +24,7 @@ Client → API Gateway → Lambda → Bedrock → S3
 ---
 
 ## 📂 Repository Structure  
-
+```
 
 generative-ai-bedrock-lambda/
 │── app.py                     # Lambda function
@@ -44,7 +44,7 @@ generative-ai-bedrock-lambda/
 └── outputs/
 └── sample\_response.json   # Example response from Bedrock
 
-
+```
 
 ---
 
